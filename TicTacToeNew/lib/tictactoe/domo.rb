@@ -8,6 +8,7 @@ module TicTacToe
      		@sign = sign
     	end
 
+      #Chooses first possible move.
     	def desicion(board)
     		for i in 0..8
     			if board.valid_move?(i)
